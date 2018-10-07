@@ -1,0 +1,13 @@
+$dark-blue: #10172f;
+$gray: #616983;
+
+// start main less
+@import "general/normalize";
+@import "general/settings";
+
+
+@import "pages/normal";
+@import "pages/dashboard";
+
+// media
+@import "pages/mediaquery";

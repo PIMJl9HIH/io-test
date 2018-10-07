@@ -1,0 +1,45 @@
+.content_dashboard {
+	width: 630px;
+	.title {
+		text-align: center;
+		margin-bottom: 145px;
+		&:after {
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+}
+
+.dashboard-select {
+	width: 100%;
+	display: block;
+	border: none;
+	outline: none;
+	height: 525px;
+	overflow-y: scroll;
+	padding-right: 20px;
+}
+
+.dashboard-option {
+	  padding-top: 45px;
+    padding-bottom: 45px;
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 2px solid rgba(97, 105, 131, 0.38);
+    background-color: transparent;
+    font-size: 32px;
+    line-height: 1;
+    color: #7781a3;
+    font-weight: 500;
+    outline: none;
+    transition: 0.7s linear;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+		transition: 0.7s linear;
+
+    &:hover {
+			color: #fff;
+    }
+}

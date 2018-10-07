@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>io-task</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+	<div class="wrapper" style="background-image: url(img/content/bg.jpg)">
+		<div class="container">
+			<div class="site">
+
+				<!-- left side -->
+				<div class="site__info">
+					<div class="logo">
+						<div class="logo__pic"><img src="img/content/logo.png" alt="logo"></div>
+						<div class="logo__text">Technologies</div>
+					</div>
+					<div class="site__info__text">
+						Get how-to help and instructions or specific features in 
+					</div>
+					<div class="btns-block">
+						<a href="#" class="btn btn-info hel p-center">Help center</a>
+						<span class="btns-block__text">or	</span>
+						<a href="#" class="btn btn-info support">Support</a>
+					</div>
+				</div>
+
+				<!-- right side -->
+				<div class="site__content">
+					<div class="content" id="content">
+						<h1 class="title" data-title="Sign in to contine to IO Technologies.">Welcome back</h1>
+
+						<form class="form" action="#" method="post" enctype="multipart/form-data">
+							<div class="form__block-input form__block-input_mail" data-title="Oops! You entered an invalid email ">
+								<input class="form__input" type="email" name="email" placeholder="Your email" required >
+							</div>
+							<div class="form__block-input form__block-input_password" data-title="Oops! You entered an empty password ">
+								<input class="form__input form__input_password" type="password" name="password" placeholder="Password" required >
+							</div>
+							<button class="btn form__submit" type="submit"><span class="form__submit__text">LOG in</span></button>
+						</form>
+
+						<div class="forgot">
+							Forgot your password? <a class="reset" id="reset" href="./forgot.html"> Reset</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end wrapper  -->
+
+	<script src="js/common.js"></script>
+</body>
+</html>
